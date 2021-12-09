@@ -77,24 +77,24 @@ const three = {
 
 const four = {
   masculine: {
-    nominative: { lat: 'arbaʿu', ar: 'أربعُ' },
-    accusative: { lat: 'arbaʿa', ar: 'أربعَ' },
-    genitive: { lat: 'arbaʿi', ar: 'أربعِ' }
+    nominative: { lat: 'arba‘u', ar: 'أربعُ' },
+    accusative: { lat: 'arba‘a', ar: 'أربعَ' },
+    genitive: { lat: 'arba‘i', ar: 'أربعِ' }
   },
   feminine: {
-    nominative: { lat: 'arbaʿatu', ar: 'أربعةُ' },
-    accusative: { lat: 'arbaʿata', ar: 'أربعةَ' },
-    genitive: { lat: 'arbaʿati', ar: 'أربعةِ' }
+    nominative: { lat: 'arba‘atu', ar: 'أربعةُ' },
+    accusative: { lat: 'arba‘ata', ar: 'أربعةَ' },
+    genitive: { lat: 'arba‘ati', ar: 'أربعةِ' }
   },
   mstandalone: {
-    nominative: { lat: 'arbaʿun', ar: 'أربعٌ' },
-    accusative: { lat: 'arbaʿan', ar: 'أربعًا' },
-    genitive: { lat: 'arbaʿin', ar: 'أربعٍ' }
+    nominative: { lat: 'arba‘un', ar: 'أربعٌ' },
+    accusative: { lat: 'arba‘an', ar: 'أربعًا' },
+    genitive: { lat: 'arba‘in', ar: 'أربعٍ' }
   },
   fstandalone: {
-    nominative: { lat: 'arbaʿatun', ar: 'أربعةٌ' },
-    accusative: { lat: 'arbaʿatan', ar: 'أربعةً' },
-    genitive: { lat: 'arbaʿatin', ar: 'أربعةٍ' }
+    nominative: { lat: 'arba‘atun', ar: 'أربعةٌ' },
+    accusative: { lat: 'arba‘atan', ar: 'أربعةً' },
+    genitive: { lat: 'arba‘atin', ar: 'أربعةٍ' }
   }
 }
 
@@ -146,24 +146,24 @@ const six = {
 
 const seven = {
   masculine: {
-    nominative: { lat: 'sabʿu', ar: 'سبعُ' },
-    accusative: { lat: 'sabʿa', ar: 'سبعَ' },
-    genitive: { lat: 'sabʿi', ar: 'سبعِ' }
+    nominative: { lat: 'sab‘u', ar: 'سبعُ' },
+    accusative: { lat: 'sab‘a', ar: 'سبعَ' },
+    genitive: { lat: 'sab‘i', ar: 'سبعِ' }
   },
   feminine: {
-    nominative: { lat: 'sabʿatu', ar: 'سبعةُ' },
-    accusative: { lat: 'sabʿata', ar: 'سبعةَ' },
-    genitive: { lat: 'sabʿati', ar: 'سبعةِ' }
+    nominative: { lat: 'sab‘atu', ar: 'سبعةُ' },
+    accusative: { lat: 'sab‘ata', ar: 'سبعةَ' },
+    genitive: { lat: 'sab‘ati', ar: 'سبعةِ' }
   },
   mstandalone: {
-    nominative: { lat: 'sabʿun', ar: 'سبعٌ' },
-    accusative: { lat: 'sabʿan', ar: 'سبعًا' },
-    genitive: { lat: 'sabʿin', ar: 'سبعٍ' }
+    nominative: { lat: 'sab‘un', ar: 'سبعٌ' },
+    accusative: { lat: 'sab‘an', ar: 'سبعًا' },
+    genitive: { lat: 'sab‘in', ar: 'سبعٍ' }
   },
   fstandalone: {
-    nominative: { lat: 'sabʿatun', ar: 'سبعةٌ' },
-    accusative: { lat: 'sabʿatan', ar: 'سبعةً' },
-    genitive: { lat: 'sabʿatin', ar: 'سبعةٍ' }
+    nominative: { lat: 'sab‘atun', ar: 'سبعةٌ' },
+    accusative: { lat: 'sab‘atan', ar: 'سبعةً' },
+    genitive: { lat: 'sab‘atin', ar: 'سبعةٍ' }
   }
 }
 
@@ -192,64 +192,64 @@ const eight = {
 
 const nine = {
   masculine: {
-    nominative: { lat: 'tisʿu', ar: 'تسعُ' },
-    accusative: { lat: 'tisʿa', ar: 'تسعَ' },
-    genitive: { lat: 'tisʿi', ar: 'تسعِ' }
+    nominative: { lat: 'tis‘u', ar: 'تسعُ' },
+    accusative: { lat: 'tis‘a', ar: 'تسعَ' },
+    genitive: { lat: 'tis‘i', ar: 'تسعِ' }
   },
   feminine: {
-    nominative: { lat: 'tisʿatu', ar: 'تسعةُ' },
-    accusative: { lat: 'tisʿata', ar: 'تسعةَ' },
-    genitive: { lat: 'tisʿati', ar: 'تسعةِ' }
+    nominative: { lat: 'tis‘atu', ar: 'تسعةُ' },
+    accusative: { lat: 'tis‘ata', ar: 'تسعةَ' },
+    genitive: { lat: 'tis‘ati', ar: 'تسعةِ' }
   },
   mstandalone: {
-    nominative: { lat: 'tisʿun', ar: 'تسعٌ' },
-    accusative: { lat: 'tisʿan', ar: 'تسعًا' },
-    genitive: { lat: 'tisʿin', ar: 'تسعٍ' }
+    nominative: { lat: 'tis‘un', ar: 'تسعٌ' },
+    accusative: { lat: 'tis‘an', ar: 'تسعًا' },
+    genitive: { lat: 'tis‘in', ar: 'تسعٍ' }
   },
   fstandalone: {
-    nominative: { lat: 'tisʿatun', ar: 'تسعةٌ' },
-    accusative: { lat: 'tisʿatan', ar: 'تسعةً' },
-    genitive: { lat: 'tisʿatin', ar: 'تسعةٍ' }
+    nominative: { lat: 'tis‘atun', ar: 'تسعةٌ' },
+    accusative: { lat: 'tis‘atan', ar: 'تسعةً' },
+    genitive: { lat: 'tis‘atin', ar: 'تسعةٍ' }
   }
 }
 
 const ten = {
   masculine: {
-    nominative: { lat: 'ʿashru', ar: 'عشْرُ' },
-    accusative: { lat: 'ʿashra', ar: 'عشْرَ' },
-    genitive: { lat: 'ʿashri', ar: 'عشْرِ' }
+    nominative: { lat: '‘ashru', ar: 'عشْرُ' },
+    accusative: { lat: '‘ashra', ar: 'عشْرَ' },
+    genitive: { lat: '‘ashri', ar: 'عشْرِ' }
   },
   feminine: {
-    nominative: { lat: 'ʿasharatu', ar: 'عشرةُ' },
-    accusative: { lat: 'ʿasharata', ar: 'عشرةَ' },
-    genitive: { lat: 'ʿasharati', ar: 'عشرةِ' }
+    nominative: { lat: '‘asharatu', ar: 'عشرةُ' },
+    accusative: { lat: '‘asharata', ar: 'عشرةَ' },
+    genitive: { lat: '‘asharati', ar: 'عشرةِ' }
   }
 }
 
 const tenConstruct = {
-  masculine: { lat: 'ʿashara', ar: 'عشرَ' },
-  feminine: { lat: 'ʿashrata', ar: 'عشْرةَ' }
+  masculine: { lat: '‘ashara', ar: 'عشرَ' },
+  feminine: { lat: '‘ashrata', ar: 'عشْرةَ' }
 }
 
 const eleven = {
-  masculine: { lat: 'aḥada ʿashara', ar: 'أحدَ عشرَ' },
-  feminine: { lat: 'iḥdá ʿashrata', ar: 'إحدى عشْرةَ' }
+  masculine: { lat: 'aḥada ‘ashara', ar: 'أحدَ عشرَ' },
+  feminine: { lat: 'iḥdá ‘ashrata', ar: 'إحدى عشْرةَ' }
 }
 
 const twelve = {
   masculine: {
-    nominative: { lat: 'ithnā ʿashara', ar: 'اثنا عشرَ' },
-    oblique: { lat: 'ithnay ʿashara', ar: 'اثنَيْ عشرَ' }
+    nominative: { lat: 'ithnā ‘ashara', ar: 'اثنا عشرَ' },
+    oblique: { lat: 'ithnay ‘ashara', ar: 'اثنَيْ عشرَ' }
   },
   feminine: {
-    nominative: { lat: 'ithnatā ʿashrata', ar: 'اثنتا عشْرةَ' },
-    oblique: { lat: 'ithnatay ʿashrata', ar: 'اثنتَيْ عشْرةَ' }
+    nominative: { lat: 'ithnatā ‘ashrata', ar: 'اثنتا عشْرةَ' },
+    oblique: { lat: 'ithnatay ‘ashrata', ar: 'اثنتَيْ عشْرةَ' }
   }
 }
 
 const twenty = {
-  nominative: { lat: 'ʿishrūna', ar: 'عشرونَ' },
-  oblique: { lat: 'ʿishrīna', ar: 'عشرينَ' }
+  nominative: { lat: '‘ishrūna', ar: 'عشرونَ' },
+  oblique: { lat: '‘ishrīna', ar: 'عشرينَ' }
 }
 
 const thirty = {
@@ -258,8 +258,8 @@ const thirty = {
 }
 
 const forty = {
-  nominative: { lat: 'arbaʿūna', ar: 'أربعونَ' },
-  oblique: { lat: 'arbaʿīna', ar: 'أربعينَ' }
+  nominative: { lat: 'arba‘ūna', ar: 'أربعونَ' },
+  oblique: { lat: 'arba‘īna', ar: 'أربعينَ' }
 }
 
 const fifty = {
@@ -273,8 +273,8 @@ const sixty = {
 }
 
 const seventy = {
-  nominative: { lat: 'sabʿūna', ar: 'سبعونَ' },
-  oblique: { lat: 'sabʿīna', ar: 'سبعينَ' }
+  nominative: { lat: 'sab‘ūna', ar: 'سبعونَ' },
+  oblique: { lat: 'sab‘īna', ar: 'سبعينَ' }
 }
 
 const eighty = {
@@ -283,14 +283,14 @@ const eighty = {
 }
 
 const ninety = {
-  nominative: { lat: 'tisʿūna', ar: 'تسعونَ' },
-  oblique: { lat: 'tisʿīna', ar: 'تسعينَ' }
+  nominative: { lat: 'tis‘ūna', ar: 'تسعونَ' },
+  oblique: { lat: 'tis‘īna', ar: 'تسعينَ' }
 }
 
 const oneHundred = {
-  nominative: { lat: 'miʾatu', ar: 'مائةُ' },
-  accusative: { lat: 'miʾata', ar: 'مائةَ' },
-  genitive: { lat: 'miʾati', ar: 'مائةِ' }
+  nominative: { lat: 'mi’atu', ar: 'مائةُ' },
+  accusative: { lat: 'mi’ata', ar: 'مائةَ' },
+  genitive: { lat: 'mi’ati', ar: 'مائةِ' }
 }
 
 //

@@ -652,11 +652,11 @@ video {
 .text-center {
 	text-align: center;
 }
-.font-noto {
-	font-family: Noto Sans, sans-serif;
+.font-serif {
+	font-family: Merriweather, serif;
 }
 .font-arabic {
-	font-family: Scheherazade New, serif;
+	font-family: "Scheherazade New", serif;
 }
 .text-4xl {
 	font-size: 2.25rem;
@@ -680,7 +680,7 @@ video {
 .duration-300 {
 	transition-duration: 300ms;
 }
-.hover\:bg-green-600:hover {
+.hover\:bg-green-700:hover {
 	--tw-bg-opacity: 1;
-	background-color: rgba(5, 150, 105, var(--tw-bg-opacity));
+	background-color: rgba(4, 120, 87, var(--tw-bg-opacity));
 }

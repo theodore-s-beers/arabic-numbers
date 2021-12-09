@@ -4,8 +4,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      noto: ['Noto Sans', 'sans-serif'],
-      arabic: ['Scheherazade New', 'serif']
+      serif: ['Merriweather', 'serif'],
+      arabic: ['"Scheherazade New"', 'serif']
     },
     extend: {}
   },
