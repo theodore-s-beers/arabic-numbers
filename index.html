@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="compiled.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Scheherazade+New&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Arabic numbers!</title>
+  </head>
+  <body class="bg-gray-100 max-w-prose mx-auto mt-4 mb-8 font-noto">
+    <h1 class="text-4xl">Arabic numbers!</h1>
+
+    <label for="number" class="block mt-4 mb-2">Number (1–100):</label>
+
+    <input
+      type="number"
+      id="number"
+      name="number"
+      min="1"
+      max="100"
+      class="border px-2 py-1 w-20 border-gray-500 rounded"
+      value="1"
+    />
+
+    <p class="mt-4 mb-2">Gender of counted noun:</p>
+
+    <div class="mb-1">
+      <input type="radio" id="masculine" name="gender" value="m" checked />
+      <label for="masculine">Masculine (ex. <em>kitāb</em>)</label>
+    </div>
+
+    <div>
+      <input type="radio" id="feminine" name="gender" value="f" />
+      <label for="feminine">Feminine (ex. <em>ṣafḥah</em>)</label>
+    </div>
+
+    <p class="mt-4 mb-2">Case of counted noun:</p>
+
+    <div class="mb-1">
+      <input type="radio" id="nominative" name="noun-case" value="n" checked />
+      <label for="nominative">Nominative (<em>marfūʿ</em>&thinsp;)</label>
+    </div>
+
+    <div class="mb-1">
+      <input type="radio" id="accusative" name="noun-case" value="a" />
+      <label for="accusative">Accusative (<em>manṣūb</em>)</label>
+    </div>
+
+    <div class="mb-4">
+      <input type="radio" id="genitive" name="noun-case" value="g" />
+      <label for="genitive">Genitive (<em>majrūr</em>)</label>
+    </div>
+
+    <button
+      type="button"
+      id="submit-button"
+      class="rounded bg-blue-600 text-gray-100 hover:bg-green-600 transition duration-300 px-4 py-2"
+    >
+      Submit
+    </button>
+
+    <hr class="mt-5 mb-4 border border-gray-400" />
+
+    <p id="restatement" class="text-center mb-3"></p>
+
+    <p
+      id="result-ar"
+      lang="ar"
+      class="text-center mb-3 text-2xl font-arabic"
+    ></p>
+
+    <p class="text-center"><em id="result"></em></p>
+
+    <script src="arqam.min.js"></script>
+  </body>
+</html>
