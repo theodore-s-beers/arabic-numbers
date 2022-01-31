@@ -533,7 +533,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .duration-300 {
   transition-duration: 300ms;
 }
-.hover\:bg-green-700:hover {
+.hover\:bg-emerald-700:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+  background-color: rgb(4 120 87 / var(--tw-bg-opacity));
 }
