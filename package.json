@@ -8,7 +8,7 @@
   "scripts": {
     "build-css": "postcss styles.css -o compiled.css",
     "format": "prettier --write .",
-    "lint": "eslint --fix .",
+    "lint": "eslint --ignore-path .prettierignore --fix .",
     "minify": "esbuild arqam.js --minify --sourcemap --outfile=arqam.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
