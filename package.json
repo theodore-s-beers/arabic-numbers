@@ -6,19 +6,18 @@
   "author": "Theo Beers",
   "main": "arqam.js",
   "scripts": {
-    "build-css": "postcss styles.css -o compiled.css",
-    "format": "prettier --write .",
+    "css": "tailwindcss -i styles.css -o compiled.css --minify",
+    "dev": "tailwindcss -i styles.css -o compiled.css --watch",
+    "format": "prettier --write --plugin-search-dir=. .",
     "lint": "eslint --ignore-path .prettierignore --fix .",
     "minify": "esbuild arqam.js --minify --sourcemap --outfile=arqam.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "esbuild": "^0.14.38",
-    "eslint": "^8.15.0",
-    "postcss": "^8.4.13",
-    "postcss-cli": "^9.1.0",
+    "esbuild": "^0.14.43",
+    "eslint": "^8.17.0",
     "prettier": "^2.6.2",
-    "tailwindcss": "^3.0.24"
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "tailwindcss": "^3.1.2"
   }
 }

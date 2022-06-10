@@ -38,10 +38,10 @@
 
     <title>Arabic number expander</title>
   </head>
-  <body class="bg-gray-100 max-w-prose mx-auto mt-4 mb-8 px-4 font-serif">
+  <body class="mx-auto mt-4 mb-8 max-w-prose bg-gray-100 px-4 font-serif">
     <h1 class="text-4xl">Arabic number expander</h1>
 
-    <label for="number" class="block mt-4 mb-2">Number (1–100):</label>
+    <label for="number" class="mt-4 mb-2 block">Number (1–100):</label>
 
     <input
       type="number"
@@ -49,7 +49,7 @@
       name="number"
       min="1"
       max="100"
-      class="border px-2 py-1 w-20 border-gray-500 rounded"
+      class="w-20 rounded border border-gray-500 px-2 py-1"
       value="1"
     />
 
@@ -85,19 +85,19 @@
     <button
       type="button"
       id="submit-button"
-      class="rounded bg-blue-600 text-gray-100 hover:bg-emerald-700 transition duration-300 px-4 py-2"
+      class="rounded bg-blue-600 px-4 py-2 text-gray-100 transition duration-300 hover:bg-emerald-700"
     >
       Submit
     </button>
 
     <hr class="mt-5 mb-4 border border-gray-400" />
 
-    <p id="restatement" class="text-center mb-3"></p>
+    <p id="restatement" class="mb-3 text-center"></p>
 
     <p
       id="result-ar"
       lang="ar"
-      class="text-center mb-3 text-2xl font-arabic"
+      class="mb-3 text-center font-arabic text-2xl"
     ></p>
 
     <p class="text-center"><em id="result"></em></p>
