@@ -4,13 +4,13 @@
   "description": "",
   "license": "MIT",
   "author": "Theo Beers",
-  "main": "arqam.js",
+  "main": "js/arqam.js",
   "scripts": {
-    "css": "tailwindcss -i styles.css -o compiled.css --minify",
-    "dev": "tailwindcss -i styles.css -o compiled.css --watch",
+    "css": "tailwindcss -i css/styles.css -o css/compiled.min.css --minify",
+    "dev": "tailwindcss -i css/styles.css -o css/compiled.min.css --minify --watch",
     "format": "prettier --write --plugin-search-dir=. .",
     "lint": "eslint --ignore-path .prettierignore --fix .",
-    "minify": "esbuild arqam.js --minify --sourcemap --outfile=arqam.min.js",
+    "minify": "esbuild js/arqam.js --minify --sourcemap --outfile=js/arqam.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
