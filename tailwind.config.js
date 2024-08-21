@@ -1,14 +1,12 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./**/*.html'],
+  content: ["./**/*.html"],
   theme: {
+    extend: {},
     fontFamily: {
-      serif: ['Merriweather', 'serif'],
-      arabic: ['"Scheherazade New"', 'serif']
+      serif: ["Merriweather", "serif"],
+      arabic: ['"Scheherazade New"', "serif"],
     },
-    extend: {}
   },
-  variants: {
-    extend: {}
-  },
-  plugins: []
-}
+  plugins: [],
+};
