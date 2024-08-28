@@ -558,15 +558,27 @@ function setNumber(number, gender, gramCase) {
   } else if (number === 2) {
     if (gender === "f") {
       if (gramCase === "g" || gramCase === "a") {
-        return two.feminine.oblique;
+        return {
+          ...two.feminine.oblique,
+          lat: two.feminine.oblique.lat.slice(1),
+        };
       } else {
-        return two.feminine.nominative;
+        return {
+          ...two.feminine.nominative,
+          lat: two.feminine.nominative.lat.slice(1),
+        };
       }
     } else {
       if (gramCase === "g" || gramCase === "a") {
-        return two.masculine.oblique;
+        return {
+          ...two.masculine.oblique,
+          lat: two.masculine.oblique.lat.slice(1),
+        };
       } else {
-        return two.masculine.nominative;
+        return {
+          ...two.masculine.nominative,
+          lat: two.masculine.nominative.lat.slice(1),
+        };
       }
     }
     // Default to 1
