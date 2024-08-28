@@ -169,9 +169,9 @@ const seven = {
 
 const eight = {
   masculine: {
-    nominative: { lat: "thamānī", ar: "ثماني" },
+    nominative: { lat: "thamānī", ar: "ثمانيْ" },
     accusative: { lat: "thamāniya", ar: "ثمانيَ" },
-    genitive: { lat: "thamānī", ar: "ثماني" },
+    genitive: { lat: "thamānī", ar: "ثمانيْ" },
   },
   feminine: {
     nominative: { lat: "thamāniyatu", ar: "ثمانيةُ" },
@@ -179,9 +179,9 @@ const eight = {
     genitive: { lat: "thamāniyati", ar: "ثمانيةِ" },
   },
   mstandalone: {
-    nominative: { lat: "thamānī", ar: "ثماني" },
-    accusative: { lat: "thamāniya", ar: "ثمانيَ" },
-    genitive: { lat: "thamānī", ar: "ثماني" },
+    nominative: { lat: "thamānin", ar: "ثمانٍ" },
+    accusative: { lat: "thamāniyan", ar: "ثمانيًا" },
+    genitive: { lat: "thamānin", ar: "ثمانٍ" },
   },
   fstandalone: {
     nominative: { lat: "thamāniyatun", ar: "ثمانيةٌ" },
