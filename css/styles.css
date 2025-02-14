@@ -1,3 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: "Scheherazade New", serif;
+  --font-serif: Merriweather, serif;
+}
