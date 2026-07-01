@@ -1,6 +1,7 @@
 {
   "name": "arqam",
   "version": "0.1.0",
+  "private": true,
   "description": "",
   "license": "MIT",
   "author": "Theo Beers",
@@ -12,15 +13,15 @@
     "format": "prettier --write .",
     "lint": "eslint --fix .",
     "minify": "esbuild js/arqam.js --minify --sourcemap --outfile=js/arqam.min.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Error: no test specified' && exit 1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@tailwindcss/cli": "^4.3.0",
-    "esbuild": "^0.28.0",
-    "eslint": "^10.4.1",
-    "prettier": "^3.8.3",
+    "@tailwindcss/cli": "^4.3.2",
+    "esbuild": "^0.28.1",
+    "eslint": "^10.6.0",
+    "prettier": "^3.9.4",
     "prettier-plugin-tailwindcss": "^0.8.0",
-    "tailwindcss": "^4.3.0"
+    "tailwindcss": "^4.3.2"
   }
 }
